@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            border: none;
+        }
+        .container{
+            width: 100vw;
+            height: 100vh;
+            background-color: azure;
+            padding: 10px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            overflow: scroll;
+            gap: 20px;
+        }
+        .box{
+            height: 400px;
+            width: 300px;
+            background-image: url(medd.jpg);  
+            background-size: cover; 
+            border-radius: 10px;
+            box-shadow: 4px 0 15px black;
+            padding: 15px;     
+        }
+        .box1{
+            height: 400px;
+            width: 300px;
+            background-image: url(bruno.jpg);  
+            background-size: cover; 
+            border-radius: 10px;
+            box-shadow: 4px 0 15px black;
+            padding: 15px;     
+        }
+        .box2{
+            height: 400px;
+            width: 300px;
+            background-image: url(gro.jpeg);  
+            background-size: cover; 
+            border-radius: 10px;
+            box-shadow: 4px 0 15px black;
+            padding: 15px;     
+        }
+        .head{
+            color: antiquewhite;
+            font-size: 30px;
+            text-shadow: 0 0 10px black;
+        }
+        
+        .sub{
+            color: antiquewhite;
+            font-size: 20px;
+            text-shadow: 0 0 10px black;
+            margin-top: 12px;
+        }
+        button{
+            background-color: antiquewhite;
+            color: black;
+            padding: 10px;
+            border-radius: 10px;
+            cursor: pointer;
+            margin-top: 12px;
+        }
+        .head1{
+            color: rgb(4, 0, 252);
+            font-size: 30px;
+            text-shadow: 0 0 10px black;
+        }
+        .sub1{
+            color: rgb(4, 0, 252);
+            font-size: 20px;
+            text-shadow: 0 0 10px black;
+            margin-top: 12px;
+        }
+        .head2{
+            color: rgb(252, 0, 0);
+            font-size: 30px;
+            text-shadow: 0 0 10px black;
+        }
+        .sub2{
+            color: rgb(252, 0, 0);
+            font-size: 20px;
+            text-shadow: 0 0 10px black;
+            margin-top: 12px;
+        }
+        
+     
+        @media(max-width: 1160px){
+            .box{
+                background-color: burlywood;
+
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+            <h1 class="head">Pharmacy at your doorstep!</h1>
+            <p class="sub">Cough syrups,pain relief sprays, medicines & more...</p>
+            <button>Order now -></button>
+        </div>
+        <div class="box1">
+            <h1 class="head1">Pet care supplies in minutes!</h1>
+            <p class="sub1">Food, treats, toys, grooming accessories & more...</p>
+            <button>Order now -></button>
+        </div>
+        <div class="box2">
+            <h1 class="head2">Fresh groceries directly from farm!</h1>
+            <p class="sub2">Fruits, vegtables, diary and diary products & more...</p>
+            <button>Order now -></button>
+        </div>
+        
+        
+        
+        
+
+        
+        
+        
+    </div>
+</body>
+</html>
